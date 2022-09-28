@@ -1,0 +1,102 @@
+body{
+    background-image: url(../assets/images/fondo.jpg);
+    background-size: cover;
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* HACE QUE EL FONDO NO SE MUEVA*/
+}
+
+/* ESTILOS CONTAINER */
+
+.container{
+    width: 1200px;
+    margin: 20px auto;
+    /* border: solid rgb(255, 255, 255); */
+    background-color: rgba(253, 60, 253, 0.313);
+}
+
+/* ESTILOS SECTION */
+
+.section{
+    /* border: solid blue ; */
+    margin: 20px 50px;
+    border-bottom: white solid;
+}
+
+/* ESTILOS BLOQUE 3 */
+
+.bloque3{
+    /* border: solid red; */
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.bloque3__h2{
+    color: rgb(255, 255, 255);
+    text-shadow:3px 3px 3px 	rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bloque3__div{
+    width: 900px;
+    margin: auto;
+    background-color:  rgba(128, 0, 128, 0.562);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ESTILOS TABLA */
+
+.bloque3__tabla{
+    color: aliceblue;
+    padding: 5px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-shadow: black 5px 5px 5px;
+}
+
+.tabla__th{
+    padding: 10px;
+    font-weight: bold;
+    border: 3px solid skyblue;
+    font-size: 1.2rem;
+    /* color: skyblue; */
+}
+
+.tabla__td{
+    padding: 10px;
+    border: 3px solid skyblue;
+}
+
+/* ESTILOS GALERIA */
+
+.marco{
+    background-color: rgb(49, 48, 48);
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    padding: 10px 10px 23px 10px;
+    margin: 15px 3px 10px;
+    border: solid 2px skyblue;
+    border-bottom: 2px solid rgb(0, 60, 144);
+    border-bottom: solid 2px rgb(0, 60, 144);
+    vertical-align: top;
+}
+
+.texto{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    margin: 0px;
+    font-variant: small-caps;
+    text-align: right;
+    font-weight: bold;
+    color: skyblue;
+}
+
+.imagen{
+    width: 100%;
+    height: 100%;
+}

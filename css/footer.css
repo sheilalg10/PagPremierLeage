@@ -1,0 +1,43 @@
+/* ESTILOS FOOTER */
+
+.footer{
+    width: 100%;
+    border-top: linear-gradient(to right, rgb(243, 24, 251,1) 0%,
+    rgb(243, 24, 251,0.98) 42%, rgba(243,24,251,0.95) 100%) solid;
+    background: linear-gradient(to right, rgb(198, 24, 251) 0%,
+    rgba(198, 24, 251, 0.98) 42%, rgba(198,24,251,0.95) 100%);
+     display: flex;
+     justify-content: space-around;
+     margin-top: 50px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+
+/* ESTILOS DIV */
+
+.footer__div{
+    text-align: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.3rem;
+    color: skyblue;
+    text-decoration: none;
+}
+
+.footer__div2{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.3rem;
+    color: skyblue;
+}
+
+.footer__div3{
+    text-align: right;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.3rem;
+    color: skyblue;
+    text-decoration: none;
+}
+
+.enlace:hover{
+    text-decoration: underline;
+}

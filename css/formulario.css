@@ -1,0 +1,151 @@
+body{
+    background-image: url(../assets/images/fondo.jpg);
+    background-size: cover;
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ESTILOS CONTAINER */
+
+.container{
+    width: 1200px;
+    margin: 20px auto;
+    /* border: solid rgb(255, 255, 255); */
+    background-color: rgba(253, 60, 253, 0.313);
+}
+
+/* ESTILOS SECTION */
+
+.section{
+    /* border: solid blue ; */
+    margin: 20px 50px;
+    border-bottom: white solid;
+}
+
+/* ESTILOS BLOQUE 3 */
+
+.bloque3{
+    /* border: solid red; */
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.bloque3__h2{
+    color: rgb(255, 255, 255);
+    text-shadow:3px 3px 3px 	rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bloque3__div{
+    width: 950px;
+    margin: auto;
+    background-color:  rgba(128, 0, 128, 0.562);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ESTILOS FORMULARIO */
+
+.form{
+    width: 950px;
+    margin: auto;
+}
+
+.form__fieldset{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-shadow: 2px 2px 3px black;
+    color: skyblue;
+}
+
+.form__div1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.form__label{
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 3px black;
+    color: skyblue;
+}
+
+.form__label--separado{
+    padding-left: 255px;
+}
+
+.form__div2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.form__input{
+    border: none;
+    border-bottom: 2px solid skyblue;
+    outline: none;
+    font-size: 1.1rem;
+}
+
+.form__input--separado{
+    border: none;
+    border-bottom: 2px solid skyblue;
+    outline: none;
+    font-size: 1.1rem;
+    margin-left: 20px;
+}
+
+#idProvincia{
+    padding-left: 125px;
+}
+
+#idFnac{
+    padding-left: 210px;
+}
+
+#idContraseña{
+    padding-left: 130px;
+}
+
+.form__input::placeholder{
+    color: purple;
+}
+
+.form__input--separado::placeholder{
+    color: purple;
+}
+
+.form__p{
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-size: 1rem;
+}
+
+/* ESTILO BOTONES */
+
+.botones{
+    text-align: center;
+}
+
+.boton{
+    margin: 10px;
+    font-weight: bolder;
+    /* font-variant: small-caps; */
+    font-family: Domine;
+    background-color: skyblue;
+    color: purple;
+    border: skyblue solid 2px;
+    padding: 5px;
+}
+
+.boton:hover{
+    background-color: purple;
+    color: skyblue;
+    border: skyblue solid 2px;
+}

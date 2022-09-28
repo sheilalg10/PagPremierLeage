@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- LINKS -->
+
+    <link rel="stylesheet" href="../css/formulario.css" />
+
+    <link rel="stylesheet" href="../css/header.css" />
+
+    <link rel="stylesheet" href="../css/footer.css" />
+
+    <link
+      href="../assets/images/logopremier.jpg"
+      rel="icon"
+      type="image/x-icon"
+    />
+
+    <title>Premier League</title>
+  </head>
+  <body>
+    <!-- CONTAINER -->
+
+    <div class="container">
+      <!-- COMIENZO HEADER -->
+
+      <header class="header">
+        <div class="title">
+          <h1 class="title__h1">PREMIER LEAGUE</h1>
+        </div>
+        <nav class="nav">
+          <a href="../index.html" class="nav__item">INICIO</a>
+          <a href="./equipos.html" class="nav__item">EQUIPOS</a>
+          <a href="./formulario.html" class="nav__item">REGISTRO</a>
+        </nav>
+      </header>
+
+      <!-- FINAL DE HEADER -->
+      <!-- COMIENZO DE MAIN -->
+
+      <main>
+        <section class="section">
+          <div class="bloque3">
+            <h2 class="bloque3__h2">REGISTRO</h2>
+            <div class="bloque3__div">
+              <form action="" method="post" class="form">
+                <fieldset class="form__fieldset">
+                  <legend>DATOS PERSONALES</legend>
+                  <div class="form__div1">
+                    <label for="" class="form__label">Nombre</label>
+                    <label for="" class="form__label--separado" id="idApellidos"
+                      >Apellidos</label
+                    >
+                  </div>
+
+                  <div class="form__div2">
+                    <input
+                      class="form__input"
+                      type="text"
+                      size="30"
+                      placeholder="Nombre"
+                    />
+                    <input
+                      class="form__input--separado"
+                      type="text"
+                      size="30"
+                      placeholder="Apellidos"
+                    />
+                  </div>
+
+                  <div class="form__div1">
+                    <label for="" class="form__label">Comunidad Autonoma</label>
+                    <label for="" class="form__label--separado" id="idProvincia"
+                      >Provincia</label
+                    >
+                    <label for="" class="form__label--separado" id="idFnac"
+                      >Fecha Nacimiento</label
+                    >
+                  </div>
+
+                  <div class="form__div2">
+                    <input
+                      class="form__input"
+                      type="text"
+                      size="30"
+                      placeholder="Comunidad Autonoma"
+                    />
+                    <input
+                      class="form__input--separado"
+                      type="text"
+                      size="30"
+                      placeholder="Provincia"
+                    />
+                    <input class="form__input--separado" type="date" />
+                  </div>
+
+                  <div class="form__div1">
+                    <label for="" class="form__label">Correo Electronico</label>
+                    <label
+                      for=""
+                      class="form__label--separado"
+                      id="idContraseña"
+                      >Contraseña</label
+                    >
+                  </div>
+
+                  <div class="form__div2">
+                    <input
+                      class="form__input"
+                      type="text"
+                      size="30"
+                      placeholder="Correo Electronico"
+                    />
+                    <input
+                      class="form__input--separado"
+                      type="password"
+                      size="30"
+                      placeholder="Contraseña"
+                    />
+                  </div>
+
+                  <div class="form__div1">
+                    <label for="" class="form__label">Sexo</label>
+                  </div>
+
+                  <div class="form__div2">
+                    <p class="form__p">
+                      <input
+                        class="form__radio"
+                        type="radio"
+                        name="sexo"
+                      />Hombre
+                    </p>
+                    <p class="form__p">
+                      <input
+                        class="form__radio"
+                        type="radio"
+                        name="sexo"
+                      />Mujer
+                    </p>
+                    <p class="form__p">
+                      <input class="form__radio" type="radio" name="sexo" />Otro
+                    </p>
+                  </div>
+                </fieldset>
+                <div class="botones">
+                  <button type="submit" class="boton">Enviar</button>
+
+                  <button type="reset" class="boton">Borrar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- FIN MAIN -->
+
+      <!-- INICIO FOOTER -->
+
+      <!-- FOOTER DE LA PAGINA -->
+
+      <footer class="footer">
+        <div>
+          <a class="footer__div enlace" href="./equipos.html">&#8592; EQUIPOS </a>
+        </div>
+
+        <div>
+          <p class="footer__div2">&copy; Premier League</p>
+        </div>
+
+        <div>
+          <a class="footer__div3 enlace" href="../index.html"> INICIO &#8594;</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
